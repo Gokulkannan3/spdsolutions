@@ -81,7 +81,7 @@ export default function App() {
           <Hero logo={logo} />
           <About />
           <Products />
-          <TechStack />
+          <Techstack />
           <Contact />
           <Footer />
         </>
