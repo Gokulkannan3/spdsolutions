@@ -7,7 +7,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Products from "./components/Products";
-import Techstack from "./components/Techstack";
+import Tech from "./components/Tech";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Launch from "./components/Launch";
@@ -81,7 +81,7 @@ export default function App() {
           <Hero logo={logo} />
           <About />
           <Products />
-          <Techstack />
+          <Tech />
           <Contact />
           <Footer />
         </>
