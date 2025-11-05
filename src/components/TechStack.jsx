@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 gsap.registerPlugin(ScrollTrigger)
 
-export default function TechStack() {
+export default function Techstack() {
   const sectionRef = useRef(null)
   const titleRef = useRef(null)
   const cardsRef = useRef([])
