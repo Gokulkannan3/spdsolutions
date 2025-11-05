@@ -7,7 +7,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Products from "./components/Products";
-import TechStack from "./components/Techstack";
+import Techstack from "./components/Techstack";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Launch from "./components/Launch";
