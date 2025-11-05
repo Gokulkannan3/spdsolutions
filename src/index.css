@@ -1,0 +1,21 @@
+/* src/index.css */
+@keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:0.5 } }
+@keyframes bounce { 0%,100% { transform:translateY(0) } 50% { transform:translateY(-10px) } }
+@keyframes spin { to { transform:rotate(360deg) } }
+
+.animate-pulse { animation: pulse 2s infinite; }
+.animate-bounce { animation: bounce 1s infinite; }
+.animate-spin { animation: spin 1s linear infinite; }
+
+.movie-glitch {
+  animation: glitch 0.3s infinite;
+}
+@keyframes glitch {
+  0% { text-shadow: 0.05em 0 0 #f00, -0.05em 0 0 #0f0, 0 0 0 #00f; }
+  14% { text-shadow: 0.05em 0 0 #f00, -0.05em 0 0 #0f0, 0 0 0 #00f; }
+  15% { text-shadow: -0.05em 0 0 #f00, 0.05em 0 0 #0f0, 0 0 0 #00f; }
+  49% { text-shadow: -0.05em 0 0 #f00, 0.05em 0 0 #0f0, 0 0 0 #00f; }
+  50% { text-shadow: 0.05em 0 0 #f00, -0.05em 0 0 #0f0, 0 0 0 #00f; }
+  99% { text-shadow: 0.05em 0 0 #f00, -0.05em 0 0 #0f0, 0 0 0 #00f; }
+  100% { text-shadow: -0.05em 0 0 #f00, 0.05em 0 0 #0f0, 0 0 0 #00f; }
+}
