@@ -38,7 +38,7 @@ export default function App() {
 
   return (
     <>
-      {!launched && <LaunchScreen onComplete={handleLaunchComplete} />}
+      {!launched && <Launch onComplete={handleLaunchComplete} />}
       <div ref={containerRef} className="overflow-x-hidden"
         style={{ visibility: launched ? "visible" : "hidden" }}>
         <Nav logo={logo} />
