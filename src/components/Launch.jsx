@@ -436,7 +436,7 @@ const SCENES = [
 
 const TOTAL_MS = SCENES.reduce((s, sc) => s + sc.duration, 0) + 800
 
-export default function LaunchScreen({ onComplete }) {
+export default function Launch({ onComplete }) {
   const wrapRef    = useRef(null)
   const sceneRef   = useRef(null)
   const labelRef   = useRef(null)

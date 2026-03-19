@@ -9,7 +9,7 @@ import About    from "./components/About"
 import Products from "./components/Products"
 import Contact  from "./components/Contact"
 import Footer   from "./components/Footer"
-import LaunchScreen from "./components/Launchscreen"
+import Launch from "./components/Launch"
 
 import logo from "./assets/logo.png"
 import "./App.css"
