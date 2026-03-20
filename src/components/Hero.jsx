@@ -153,10 +153,10 @@ export default function Hero({ logo }) {
               {/* Logo in center */}
               <div className="absolute inset-12 flex items-center justify-center">
                 <div className="relative">
-                  <div className="absolute inset-0 rounded-xl" style={{ background: "radial-gradient(circle,#dc262630,transparent)", filter: "blur(20px)" }} />
+                  <div className="absolute inset-0 rounded-full" style={{ background: "radial-gradient(circle, white, transparent)", filter: "blur(20px)" }} />
                   {logo && (
                     <img src={logo} alt="SPD Solutions"
-                      className="relative z-10 w-32 h-32 object-contain drop-shadow-2xl"
+                      className="relative z-10 object-contain drop-shadow-2xl"
                       style={{ filter: "drop-shadow(0 0 20px #dc262660)" }} />
                   )}
                 </div>

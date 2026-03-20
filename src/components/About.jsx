@@ -115,14 +115,14 @@ export default function About() {
                   </span>
                   <span className="font-mono text-sm">+91 99412 69128</span>
                 </a>
-                <a href="mailto:gokul8506@gmail.com" className="flex items-center gap-3 text-gray-400 hover:text-white group transition-colors">
+                <a href="mailto:spdsolutions003@gmail.com" className="flex items-center gap-3 text-gray-400 hover:text-white group transition-colors">
                   <span className="w-7 h-7 border border-red-600/20 flex items-center justify-center text-red-500 group-hover:border-red-600 transition-colors">
                     <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                     </svg>
                   </span>
-                  <span className="font-mono text-sm">gokul8506@gmail.com</span>
+                  <span className="font-mono text-sm">spdsolutions003@gmail.com</span>
                 </a>
               </div>
             </div>
